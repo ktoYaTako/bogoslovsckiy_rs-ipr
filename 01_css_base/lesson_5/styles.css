@@ -1,0 +1,46 @@
+h1 {
+    color: yellow;
+    font-size: 36px;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+a, a:hover {
+    color: red;
+}
+
+.animal-background {
+    background-image: url(animal.jpg);
+    color: white;
+}
+
+.bordered-box {
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+.centered-box {
+    max-width: 600px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.light-gray-background {
+    background-color: grey;
+    padding: 20px;
+}
