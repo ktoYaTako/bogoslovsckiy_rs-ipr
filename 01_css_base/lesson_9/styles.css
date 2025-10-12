@@ -1,0 +1,79 @@
+
+h1, h2 {
+  color: darkblue;
+}
+
+.content > p {
+  color: darkgreen;
+}
+
+.content > p:first-of-type {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.content h2 + p {
+  text-decoration: underline;
+}
+
+.sidebar p:nth-of-type(2) {
+  color: #b22222;
+}
+
+
+
+.content p.highlight {
+  color: orange;
+}
+
+.content p:hover {
+  color: blue;
+}
+
+.content p:not(.highlight) {
+  color: gray;
+}
+
+h2::before {
+  content: "— ";
+  color: darkred;
+  font-size: 20px;
+}
+
+p.highlight::after {
+  content: " End";
+}
+
+.sidebar p {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.sidebar p:nth-of-type(2) {
+  color: initial;
+}
+
+.intro-section p:first-of-type {
+  all: unset;
+}
+
+.content span {
+  color: purple;
+}
+
+.sidebar span {
+  color: black;
+}
+
+#main-container {
+  background-color: lightgray;
+}
+
+#main-container > * {
+  background-color: inherit;
+}
+
+h1 {
+  color: darkgreen !important;
+}
