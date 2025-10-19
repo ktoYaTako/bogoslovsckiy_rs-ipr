@@ -1,11 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lorem Project</title>
+  <meta name="description" content="Lorem ipsum pet project with semantic HTML structure." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <header>
+    <div class="container">
+      <h1>Lorem Project</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <nav aria-label="Основная навигация">
+        <ul>
+          <li><a href="#hero">Lorem</a></li>
+          <li><a href="#features">Ipsum</a></li>
+          <li><a href="#blog">Dolor</a></li>
+          <li><a href="#gallery">Sit</a></li>
+          <li><a href="#pricing">Amet</a></li>
+          <li><a href="#contact">Consectetur</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <header>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>Consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      </header>
+      <p><a href="#features">Lorem CTA</a></p>
+    </section>
+
+    <div class="container grid-two-columns">
+      <div class="content">
+        <section id="features">
+          <h3>Section Lorem</h3>
+          <p>Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+
+          <ul>
+            <li>
+              <article>
+                <h4>Feature 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi.</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Feature 2</h4>
+                <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Feature 3</h4>
+                <p>Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <section id="blog">
+          <h3>Blog Lorem</h3>
+
+          <article>
+            <header>
+              <h4>Lorem Post 1</h4>
+              <p><time datetime="2025-10-01">1 октября 2025</time> — 3 min read</p>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia molestie dui.</p>
+            <footer><a href="#">Read more</a></footer>
+          </article>
+
+          <article>
+            <header>
+              <h4>Lorem Post 2</h4>
+              <p><time datetime="2025-09-15">15 сентября 2025</time> — 5 min read</p>
+            </header>
+            <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+            <footer><a href="#">Read more</a></footer>
+          </article>
+        </section>
+
+        <section id="gallery">
+          <h3>Gallery Lorem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <ul class="gallery-grid">
+            <li>
+              <figure>
+                <img src="#" alt="Lorem image 1" />
+                <figcaption>Lorem caption 1</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="#" alt="Lorem image 2" />
+                <figcaption>Lorem caption 2</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="#" alt="Lorem image 3" />
+                <figcaption>Lorem caption 3</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+
+        <section id="pricing">
+          <h3>Pricing Lorem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <ul class="pricing-list">
+            <li>
+              <article>
+                <h4>Basic</h4>
+                <p class="price">$0 / lorem</p>
+                <ul>
+                  <li>Lorem feature</li>
+                  <li>Ipsum dolor</li>
+                </ul>
+                <p><a href="#">Select</a></p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Pro</h4>
+                <p class="price">$9 / ipsum</p>
+                <ul>
+                  <li>Sit amet</li>
+                  <li>Consectetur elit</li>
+                </ul>
+                <p><a href="#">Select</a></p>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <section id="faq">
+          <h3>FAQ Lorem</h3>
+
+          <details>
+            <summary>Lorem question 1?</summary>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </details>
+
+          <details>
+            <summary>Lorem question 2?</summary>
+            <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+          </details>
+        </section>
+
+        <section id="contact">
+          <h3>Contact Lorem</h3>
+          <form action="#" method="post" novalidate>
+            <fieldset>
+              <legend>Lorem Form</legend>
+              <div>
+                <label for="name">Lorem Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div>
+                <label for="email">Lorem Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div>
+                <label for="message">Lorem Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+              <div>
+                <button type="submit">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+
+      <aside>
+        <h4>Lorem Sidebar</h4>
+
+        <section>
+          <h5>Lorem Subscribe</h5>
+          <form action="#" method="post" novalidate>
+            <label for="subscribe-email">Email</label>
+            <input id="subscribe-email" name="subscribe-email" type="email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </section>
+
+        <section>
+          <h5>Lorem Contact Info</h5>
+          <address>
+            Lorem Company<br />
+            <a href="mailto:lorem@example.com">lorem@example.com</a><br />
+            <a href="tel:+123456789">+1 234 567 89</a>
+          </address>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <time datetime="2025">2025</time> Lorem Project</p>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="#">Lorem policy</a></li>
+          <li><a href="#">Ipsum terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
